@@ -1,0 +1,477 @@
+.p-20 {
+  padding: 20px;
+}
+.p-40 {
+  padding: 40px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pr-20 {
+  padding-right: 20px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+.pr-40 {
+  padding-right: 40px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+.pl-40 {
+  padding-left: 40px;
+}
+.pt-60 {
+  padding-top: 60px;
+}
+.pr-60 {
+  padding-right: 60px;
+}
+.pb-60 {
+  padding-bottom: 60px;
+}
+.pl-60 {
+  padding-left: 60px;
+}
+.pt-80 {
+  padding-top: 80px;
+}
+.pr-80 {
+  padding-right: 80px;
+}
+.pb-80 {
+  padding-bottom: 80px;
+}
+.pl-80 {
+  padding-left: 80px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: Roboto, "Open Sans", sans-serif;
+}
+
+nav {
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  border-style: groove;
+  border-width: 0px 0px 3px;
+  padding: 0.75rem 13.58rem 1rem;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+#menu1:hover,
+#menu2:hover,
+#menu3:hover,
+#menu4:hover {
+  color: #108a00;
+}
+.left-nav {
+  display: flex;
+  gap: 47px;
+  font-size: 19px;
+  align-items: center;
+}
+.right-nav {
+  display: flex;
+  gap: 45px;
+}
+.search {
+  position: relative;
+}
+#search-icon {
+  position: absolute;
+  left: 15px;
+  top: 19px;
+  color: #3a3737;
+}
+
+.search input {
+  padding: 1rem 3rem;
+}
+::placeholder {
+  font-size: 20px;
+}
+#textbox {
+  font-size: 18px;
+  border-radius: 30px;
+  border-color: #ddd0d0;
+  border-width: 3px;
+}
+.login {
+  display: flex;
+  gap: 25px;
+}
+#login {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: #001e00;
+  font-weight: 500;
+}
+#login:hover {
+  cursor: pointer;
+}
+#signup:hover {
+  background-color: #14a800;
+  color: #fff;
+  cursor: pointer;
+}
+#signup {
+  background-color: #108a00;
+  color: #fff;
+  padding: 3px 38px;
+  border-radius: 43px;
+  font-size: 19px;
+  border: none;
+}
+.sub-menu {
+  padding: 0.75rem 13.58rem 1rem;
+}
+.sub-menu a {
+  text-decoration: none;
+  padding: 0.7rem;
+  font-size: 19px;
+}
+#sub-menu1:hover,
+#sub-menu2:hover,
+#sub-menu3:hover,
+#sub-menu4:hover,
+#sub-menu5:hover {
+  color: #108a00;
+  text-decoration: underline;
+}
+#btn:hover {
+  background-color: #14a800;
+  color: #fff;
+  cursor: pointer;
+}
+#btn {
+  background-color: #108a00;
+  color: #fff;
+  padding: 3px 38px;
+  border-radius: 43px;
+  font-size: 19px;
+  border: none;
+  width: 29%;
+  height: 50px;
+}
+.container {
+  max-width: 1616px;
+  display: block;
+  margin: 0 auto;
+}
+.first-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+}
+.left-container h1 {
+  color: #14a800;
+  font-size: 90px;
+  font-family: "Noto Serif", serif;
+  line-height: 100px;
+}
+.left-container p {
+  font-size: 27px;
+  line-height: 35px;
+  color: #5e6d55;
+}
+
+.right-container img {
+  width: 547px;
+  height: 378px;
+  display: flex;
+  padding: 1.2rem 9rem 0 0;
+}
+#trusted_by {
+  color: #9aaa97;
+  font-weight: 500;
+  font-size: 22px;
+}
+.companylogo {
+  height: 73px;
+  display: flex;
+  gap: 40px;
+}
+.second-banner {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+.right-2nd-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+.right-2nd-banner h3 {
+  color: #001e00;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Noto Serif Khojki", serif;
+  line-height: 100px;
+}
+.right-2nd-banner p {
+  font-size: 27px;
+  line-height: 35px;
+  color: #5e6d55;
+}
+
+.left-2nd-banner img {
+  width: 654px;
+  height: 479px;
+  display: flex;
+  padding: 1.2rem 9rem 0 0;
+}
+#learn-btn {
+  background-color: #fff;
+  color: #108a00;
+  padding: 3px 38px;
+  border-radius: 43px;
+  font-size: 19px;
+  border: none;
+  width: 33%;
+  height: 50px;
+  border: solid;
+}
+#learn-btn:hover {
+  cursor: pointer;
+}
+.post,
+.pin,
+.badge {
+  display: flex;
+  gap: 15px;
+}
+.post i,
+.pin i,
+.badge i {
+  font-size: 30px;
+  color: #001e00;
+}
+.post-input h4,
+.pin-input h4,
+.badge-input h4 {
+  color: #064006;
+  font-size: 27px;
+  font-weight: 500;
+}
+.post-input p,
+.pin-input p,
+.badge-input p {
+  font-size: 18px;
+  color: #726565;
+}
+.second-banner-btn {
+  display: flex;
+  gap: 20px;
+}
+.category-title h3 {
+  color: #001e00;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Noto Serif Khojki", serif;
+  line-height: 100px;
+}
+.category-title p {
+  font-size: 21px;
+  color: #726565;
+}
+.category-title a {
+  font-size: 21px;
+  color: #108a00;
+}
+.category-title:hover a {
+  color: #14a800;
+}
+.development,
+.services,
+.design,
+.sales,
+.writing,
+.admin,
+.finance,
+.engineering {
+  background-color: #f5f9f5;
+  height: 84px;
+  width: 338px;
+  padding: 26px 20px 52px;
+  font-size: 22px;
+  border-radius: 13px;
+  line-height: 45px;
+}
+.development:hover,
+.services:hover,
+.design:hover,
+.sales:hover,
+.writing:hover,
+.admin:hover,
+.finance:hover,
+.engineering:hover {
+  background-color: #e4ebe4;
+}
+
+.development h4,
+.services h4,
+.design h4,
+.sales h4,
+.writing h4,
+.admin h4,
+.finance h4,
+.engineering h4 {
+  font-size: 23px;
+  color: #001e00;
+  font-family: "Mulish", sans-serif;
+}
+.development-values,
+.services-values,
+.design-values,
+.sales-values,
+.writing-values,
+.admin-values,
+.finance-values,
+.engineering-values {
+  display: flex;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 21px;
+}
+.development-values i,
+.services-values i,
+.design-values i,
+.sales-values i,
+.writing-values i,
+.admin-values i,
+.finance-values i,
+.engineering-values i {
+  color: #14a800;
+}
+.development-values p,
+.services-values p,
+.design-values p,
+.sales-values p,
+.writing-values p,
+.admin-values p,
+.finance-values p,
+.engineering-values p {
+  color: #584e4e;
+}
+.cat-body1,
+.cat-body2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.third-banner {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  
+}
+.left-3rd-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  background: #015c56;
+
+}
+.left-3rd-banner h4{
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.left-3rd-banner h1{
+  line-height: 75px;
+}
+.left-3rd-banner span{
+  color: #fff;
+  font-size: 64px;
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+}
+#diff-color{
+  color: #91e6b3;
+  font-size: 64px;
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+}
+
+.left-3rd-banner p {
+  font-size: 22px;
+  line-height: 30px;
+  color: #fff;
+}
+#third-banner-btn {
+  background-color: #fff;
+    color: #13544e;
+    padding: -2px 52px;
+    border-radius: 43px;
+    font-size: 20px;
+    border: none;
+    font-weight: 500;
+    width: 20%;
+    height: 54px;
+    border: transparent;
+}
+#third-banner-btn:hover {
+  cursor: pointer;
+}
+.left-sub-point1,
+.left-sub-point2,
+.left-sub-point3{
+  display: flex;
+  gap: 15px;
+}
+.left-sub-point1 i,
+.left-sub-point2 i,
+.left-sub-point3 i {
+  font-size: 20px;
+  color: #91e6b3;
+}
+
+.left-sub-point1 p,
+.left-sub-point2 p,
+.left-sub-point3 p {
+  font-size: 22px;
+  color: #fff;
+}
+.right-3rd-banner img{
+ width: 100%;
+ height: 645px;
+ object-fit: cover;
+}
