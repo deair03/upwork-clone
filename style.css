@@ -107,7 +107,7 @@ nav {
 #search-icon {
   position: absolute;
   left: 15px;
-  top: 19px;
+  top: 15px;
   color: #3a3737;
 }
 
@@ -255,6 +255,7 @@ nav {
   height: 479px;
   display: flex;
   padding: 1.2rem 9rem 0 0;
+  border-radius: 10px;
 }
 #learn-btn {
   background-color: #fff;
@@ -400,7 +401,6 @@ nav {
   display: flex;
   align-items: center;
   margin-top: 3rem;
-  
 }
 .left-3rd-banner {
   display: flex;
@@ -408,23 +408,23 @@ nav {
   justify-content: center;
   gap: 25px;
   background: #015c56;
-
+  border-radius: 10px 0 0 10px;
 }
-.left-3rd-banner h4{
+.left-3rd-banner h4 {
   color: #fff;
   font-size: 1.6rem;
   font-weight: 400;
 }
-.left-3rd-banner h1{
+.left-3rd-banner h1 {
   line-height: 75px;
 }
-.left-3rd-banner span{
+.left-3rd-banner span {
   color: #fff;
   font-size: 64px;
   font-family: "Noto Serif", serif;
   font-weight: 400;
 }
-#diff-color{
+#diff-color {
   color: #91e6b3;
   font-size: 64px;
   font-family: "Noto Serif", serif;
@@ -438,22 +438,22 @@ nav {
 }
 #third-banner-btn {
   background-color: #fff;
-    color: #13544e;
-    padding: -2px 52px;
-    border-radius: 43px;
-    font-size: 20px;
-    border: none;
-    font-weight: 500;
-    width: 20%;
-    height: 54px;
-    border: transparent;
+  color: #13544e;
+  padding: -2px 52px;
+  border-radius: 43px;
+  font-size: 20px;
+  border: none;
+  font-weight: 500;
+  width: 20%;
+  height: 54px;
+  border: transparent;
 }
 #third-banner-btn:hover {
   cursor: pointer;
 }
 .left-sub-point1,
 .left-sub-point2,
-.left-sub-point3{
+.left-sub-point3 {
   display: flex;
   gap: 15px;
 }
@@ -470,8 +470,234 @@ nav {
   font-size: 22px;
   color: #fff;
 }
-.right-3rd-banner img{
- width: 100%;
- height: 645px;
- object-fit: cover;
+.right-3rd-banner img {
+  width: 100%;
+  height: 645px;
+  object-fit: cover;
+  border-radius: 0 10px 10px 0;
+}
+.fourth-banner {
+  background-image: url(/assets/banner4.jpg);
+  background-size: cover;
+  background-position: top;
+  border-radius: 10px;
+  margin-top: 65px;
+}
+.para-4th-banner h4 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.para-4th-banner h1 {
+  color: #fff;
+  font-size: 79px;
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  line-height: 5rem;
+  margin-top: 10rem;
+}
+.para-4th-banner p {
+  font-size: 24px;
+  line-height: 1.7rem;
+  color: #fff;
+  width: 37%;
+}
+.card-4th-banner {
+  display: flex;
+  justify-content: space-between;
+}
+.card1,
+.card2,
+.card3 {
+  background-color: #108a00;
+  height: 84px;
+  width: 338px;
+  padding: 27px 121px 70px 25px;
+  font-size: 22px;
+  border-radius: 8px;
+  line-height: 45px;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  background-color: #ffffff;
+}
+.card1 a,
+.card2 a,
+.card3 a {
+  text-decoration: none;
+}
+.card1 h2,
+.card2 h2,
+.card3 h2 {
+  color: #fff;
+  line-height: 40px;
+  font-family: roboto;
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+.card1:hover h2,
+.card2:hover h2,
+.card3:hover h2 {
+  color: #108a00;
+  line-height: 40px;
+  font-family: roboto;
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.card1:hover span,
+.card2:hover span,
+.card3:hover span {
+  color: #108a00;
+}
+.card1:hover sup,
+.card2:hover sup,
+.card3:hover sup {
+  color: #108a00;
+}
+.card1:hover i,
+.card2:hover i,
+.card3:hover i {
+  color: #108a00;
+}
+.card-p {
+  margin-top: 10px;
+}
+.card-p span {
+  color: #fff;
+}
+.card-p:hover span {
+  color: #108a00;
+}
+.card-p sup {
+  color: #fff;
+  font-size: 11px;
+}
+.card-p:hover sup {
+  color: #108a00;
+}
+.card-p i {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 14px;
+}
+.card-p:hover i {
+  color: #108a00;
+  font-size: 20px;
+  margin-left: 14px;
+}
+.fivth-banner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+  position: relative;
+}
+.left-5th-banner {
+  background-color: #f2f7f2;
+  border-radius: 10px;
+  padding: 2.5rem;
+  width: 60%;
+}
+.right-5th-banner {
+  background-color: #14a800;
+  border-radius: 10px;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.right-5th-banner-content {
+  margin: 0 0 38px 107px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.girldancing img {
+  position: absolute;
+  top: 51px;
+  right: 20%;
+  width: 433px;
+  height: 639px;
+  transform: rotate(-7deg);
+}
+
+.left-5th-banner h1 {
+  color: #001e00;
+  font-size: 79px;
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  line-height: 5rem;
+  margin-top: 3.5rem;
+}
+
+.quality,
+.nocost,
+.safe {
+  display: flex;
+  gap: 15px;
+}
+.quality i,
+.nocost i,
+.safe i {
+  font-size: 30px;
+  color: #385038;
+}
+.quality-input h4,
+.nocost-input h4,
+.safe-input h4 {
+  color: #064006;
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.quality-input p,
+.nocost-input p,
+.safe-input p {
+  color: #77868b;
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: 400;
+}
+.left-5th-banner-input {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+  width: 60%;
+}
+.right-5th-banner h4 {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 43px;
+}
+.rating,
+.award {
+  display: flex;
+  gap: 15px;
+}
+.rating i,
+.award i {
+  font-size: 39px;
+  color: #fff;
+}
+.rating-input h4,
+.award-input h4 {
+  color: white;
+  font-size: 27px;
+  font-size: 40px;
+}
+.rating-input p,
+.award-input p {
+  color: white;
+  font-size: 21px;
+  line-height: 27px;
 }
